@@ -1,0 +1,147 @@
+body {
+  font-family: "Unbounded", cursive;
+  background: rgb(180, 149, 201);
+  background: linear-gradient(
+    90deg,
+    rgba(180, 149, 201, 1) 0%,
+    rgba(207, 156, 156, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  width: 1600px;
+  margin: 10px auto;
+}
+.form {
+  position: relative;
+}
+
+.header-logo {
+  display: block;
+  background-image: url(../img/SAS.png);
+  background-repeat: no-repeat;
+  float: left;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px 110px 15px;
+}
+.header_list {
+  display: flex;
+  list-style-type: none;
+}
+.header_item {
+  margin-right: 15px;
+}
+.header_link {
+  text-decoration: none;
+  font-size: large;
+}
+
+.title {
+  text-align: center;
+  font-size: xxx-large;
+  font-family: "Unbounded", cursive;
+  margin-top: 30px;
+  color: rgb(75, 0, 130);
+}
+.form_button {
+  display: block;
+  background-image: url(../img/search.svg);
+  width: 20px;
+  height: 20px;
+  background-repeat: none;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% - 10px);
+  left: 10px;
+}
+.search {
+  width: 380px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 40px;
+}
+.search:focus {
+  outline: none;
+}
+.search::placeholder {
+  color: indigo;
+}
+.choose {
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px 20px;
+  background: rgb(166, 79, 226);
+  background: linear-gradient(
+    90deg,
+    rgba(166, 79, 226, 1) 0%,
+    rgba(219, 81, 81, 1) 50%,
+    rgba(255, 173, 58, 1) 100%
+  );
+}
+
+.discription {
+  color: rgb(75, 0, 130);
+  margin-bottom: 60px;
+}
+.container {
+  max-width: 1600px;
+  margin: 10px 235px 10px 235px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.main_list {
+  margin-top: 60px;
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+}
+.main_text {
+  flex-basis: 650px;
+  font-size: 120%;
+}
+.photo {
+  width: 400px;
+  height: 600px;
+  border-radius: 10px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.main_span {
+  display: block;
+}
+.main_item {
+  color: rgba(75, 0, 130, 0.4);
+}
+.main_item_2 {
+  margin-top: 110px;
+}
+.main_item_3 {
+  margin-top: 220px;
+}
+.lesson {
+  text-align: center;
+  color: rgb(75, 0, 130);
+  margin-top: 40px;
+}
+.steam {
+  width: 300px;
+}
+.epic {
+  width: 300px;
+}
+.discord {
+  width: 300px;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+}
